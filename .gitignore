@@ -95,6 +95,13 @@ results
 node_modules
 .node_history
 
+############################
+# Strapi
+############################
+
+exports
+.cache
+build
 
 ############################
 # Tests

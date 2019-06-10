@@ -68,7 +68,7 @@ module.exports = {
    * @return {Object}
    */
 
-  destroy: async (ctx, next) => {
+  delete: async (ctx, next) => {
     return strapi.services.post.remove(ctx.params);
   }
 };

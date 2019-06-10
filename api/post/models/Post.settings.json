@@ -30,6 +30,11 @@
       "model": "user",
       "via": "posts",
       "plugin": "users-permissions"
+    },
+    "postpreview": {
+      "unique": true,
+      "required": true,
+      "type": "string"
     }
   }
 }
