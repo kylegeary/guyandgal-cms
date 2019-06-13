@@ -37,6 +37,10 @@
     "postpreview": {
       "required": true,
       "type": "string"
+    },
+    "category": {
+      "type": "string",
+      "required": true
     }
   }
 }
